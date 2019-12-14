@@ -1,3 +1,12 @@
+"""How To Play?
+Caranya hampir sama seperti game tictactoe pada umumnya,ada team X juga team O.Pada game ini team X
+mempunyai 4 sektor berupa 1-4,sedangkan sektor team O adalah 6-9.Setiap team X melakukakan fungsi untuk
+mengambil sektor maka ada dua hal yg akan terjadi (Valu pada sektor tersebut akan bertambah,dan sektor
+tersebut akan jadi milik team X).Dan jika team O melakukan fungsi maka akan terjadi(value pada sektor
+tersebut akan berkurang,dan sektor tersebut akan jadi milik team O).Pemenang ialah yg berhasil memiliki 
+3 sektor dgn value yg sama dan membentuk pola polygon 1 garis(*).Tembahan untuk tanda( ☺ )yg berada ditengah
+-tengah board,kami menyebutnya joker 'sesuatu yg bisa jadi apapun'"""
+
 invar = 2
 turn = "x"
 a = 1
