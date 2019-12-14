@@ -1,14 +1,14 @@
 invar = 2
 turn = "x"
-a = 8
-b = 0
-c = 0
-d = 0
-e = 0
-f = 0
-g = 0
-h = 0
-i = 0
+a = 1
+b = 2 
+c = 3
+d = 4
+e = "☺"
+f = "6"
+g = "7"
+h = "8"
+i = "9"
 def main():
     print("|"+str(a)+"|"+str(b)+"|"+str(c)+"|")
     print("|"+str(d)+"|"+str(e)+"|"+str(f)+"|")
@@ -17,14 +17,15 @@ def main():
 def ready(x):
     if a == b == c:
         x = 1
-        if a == int(a):
+        if b == int(b):
             print("X Won Game! O LOOSER!")
         else:
             print("O Won Game! X LOOSER!")
         return x    
 
-while ready(0) != 0:            
-    main()
+main()
+while ready(0) != 1:            
+
     npush = input(turn + " Turn : ")
 
     if npush == "a":
@@ -32,24 +33,17 @@ while ready(0) != 0:
             a += 1
             turn = "o"
         elif a == int(a) and turn == "o":
-            int(a)
-            if a != 0:
-                a -= 1
-            else:
-                a += 1
-            str(a)
+            a -= 1
+            a = str(a)
             turn = "x"
         elif a == str(a) and turn == "o":
-            int(a)
-            a += 1
-            str(a)
+            a = int(a)
+            a -= 1
+            a = str(a)
             turn = "x"
         else:
-            int(a)
-            if a != "0":
-                a -= 1
-            else:
-                a += 1
+            a = int(a)
+            a += 1
             turn = "o"
 
     if npush == "b":
@@ -57,36 +51,34 @@ while ready(0) != 0:
             b += 1
             turn = "o"
         elif b == int(b) and turn == "o":
-            int(b)
             b -= 1
-            str(b)
+            b = str(b)
             turn = "x"
         elif b == str(b) and turn == "o":
-            int(b)
-            b += 1
-            str(b)
+            b = int(b)
+            b -= 1
+            b = str(b)
             turn = "x"
         else:
-            int(b)
-            b -= 1
+            b = int(b)
+            b += 1
             turn = "o"        
     if npush == "c":
         if c == int(c) and turn == "x":
             c += 1
             turn = "o"
         elif c == int(c) and turn == "o":
-            int(c)
             c -= 1
-            str(c)
+            c = str(c)
             turn = "x"
         elif c == str(c) and turn == "o":
-            int(c)
-            c += 1
-            str(c)
+            c = int(c)
+            c -= 1
+            c = str(c)
             turn = "x"
         else:
-            int(c)
-            c -= 1
+            c = int(c)
+            c += 1
             turn = "o"
 
     if npush == "d":
@@ -94,56 +86,38 @@ while ready(0) != 0:
             d += 1
             turn = "o"
         elif d == int(d) and turn == "o":
-            int(d)
             d -= 1
-            str(d)
+            d = str(d)
             turn = "x"
         elif d == str(d) and turn == "o":
-            int(d)
-            d += 1
-            str(d)
+            d = int(d)
+            d -= 1
+            d = str(d)
             turn = "x"
         else:
-            int(a)
-            a -= 1
+            d = int(a)
+            a += 1
             turn = "o"        
     
     if npush == "e":
-        if e == int(e) and turn == "x":
-            e += 1
-            turn = "o"
-        elif e == int(e) and turn == "o":
-            int(e)
-            e -= 1
-            str(e)
-            turn = "x"
-        elif e == str(e) and turn == "o":
-            int(e)
-            e += 1
-            str(e)
-            turn = "x"
-        else:
-            int(e)
-            e -= 1
-            turn = "o"
+        print("Created by = SumCode")
       
     if npush == "f":
         if f == int(f) and turn == "x":
             f += 1
             turn = "o"
         elif f == int(f) and turn == "o":
-            int(f)
             f -= 1
-            str(f)
+            f = str(f)
             turn = "x"
         elif f == str(f) and turn == "o":
-            int(f)
-            f += 1
-            str(f)
+            f = int(f)
+            f -= 1
+            f = str(f)
             turn = "x"
         else:
-            int(f)
-            f -= 1
+            f = int(f)
+            f += 1
             turn = "o"
     
     if npush == "g":
@@ -151,18 +125,17 @@ while ready(0) != 0:
             g += 1
             turn = "o"
         elif g == int(g) and turn == "o":
-            int(g)
             g -= 1
-            str(g)
+            g = str(g)
             turn = "x"
         elif g == str(g) and turn == "o":
-            int(g)
-            g += 1
-            str(g)
+            g = int(g)
+            g -= 1
+            g = str(g)
             turn = "x"
         else:
-            int(g)
-            g -= 1
+            g = int(g)
+            g += 1
             turn = "o"
     
     if npush == "h":
@@ -170,18 +143,17 @@ while ready(0) != 0:
             h += 1
             turn = "o"
         elif h == int(h) and turn == "o":
-            int(h)
             h -= 1
-            str(h)
+            h = str(h)
             turn = "x"
         elif h == str(h) and turn == "o":
-            int(h)
-            h += 1
-            str(h)
+            h = int(h)
+            h -= 1
+            h = str(h)
             turn = "x"
         else:
-            int(h)
-            h -= 1
+            h = int(h)
+            h += 1
             turn = "o"
     
     if npush == "i":
@@ -189,19 +161,19 @@ while ready(0) != 0:
             i += 1
             turn = "o"
         elif i == int(i) and turn == "o":
-            int(i)
             i -= 1
-            str(i)
+            i = str(i)
             turn = "x"
         elif i == str(i) and turn == "o":
-            int(i)
-            i += 1
-            str(i)
+            i = int(i)
+            i -= 1
+            i = str(i)
             turn = "x"
         else:
-            int(i)
-            i -= 1
+            i = int(i)
+            i += 1
             turn = "o"
+    main()
 
 
             
