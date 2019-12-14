@@ -148,40 +148,40 @@ if npush == "g":
         g -= 1
         turn = "o"
 
-if npush == "g":
-    if g == int(g) and turn == "x":
-        g += 1
+if npush == "h":
+    if h == int(h) and turn == "x":
+        h += 1
         turn = "o"
-    elif g == int(g) and turn == "o":
-        int(g)
-        g -= 1
-        str(g)
+    elif h == int(h) and turn == "o":
+        int(h)
+        h -= 1
+        str(h)
         turn = "x"
-    elif g== str(g) and turn == "o":
-        int(g)
-        g += 1
-        str(g)
+    elif h == str(h) and turn == "o":
+        int(h)
+        h += 1
+        str(h)
         turn = "x"
     else:
-        int(g)
-        g -= 1
+        int(h)
+        h -= 1
         turn = "o"
 
-if npush == "a":
-    if a == int(a) and turn == "x":
-        a += 1
+if npush == "i":
+    if i == int(i) and turn == "x":
+        i += 1
         turn = "o"
-    elif a == int(a) and turn == "o":
-        int(a)
-        a -= 1
-        str(a)
+    elif i == int(i) and turn == "o":
+        int(i)
+        i -= 1
+        str(i)
         turn = "x"
-    elif a == str(a) and turn == "o":
-        int(a)
-        a += 1
-        str(a)
+    elif i == str(i) and turn == "o":
+        int(i)
+        i += 1
+        str(i)
         turn = "x"
     else:
-        int(a)
-        a -= 1
+        int(i)
+        i -= 1
         turn = "o"
