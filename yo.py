@@ -22,7 +22,56 @@ def ready(x):
         else:
             print("O Won Game! X LOOSER!")
         return x    
-
+    if g == h == i:
+        x = 1
+        if h == int(h):
+            print("X Won Game! O LOOSER!")
+        else:
+            print("O Won Game! X LOOSER!")
+        return x      
+    if a == d == g:
+        x = 1
+        if d == int(d):
+            print("X Won Game! O LOOSER!")
+        else:
+            print("O Won Game! X LOOSER!")
+        return x  
+    if c == f == i:
+        x = 1
+        if f == int(f):
+            print("X Won Game! O LOOSER!")
+        else:
+            print("O Won Game! X LOOSER!")
+        return x      
+    if d == f:
+        x = 1
+        if d == int(d):
+            print("X Won Game! O LOOSER!")
+        else:
+            print("O Won Game! X LOOSER!")
+        return x    
+    if b == h:
+        x = 1
+        if b == int(b):
+            print("X Won Game! O LOOSER!")
+        else:
+            print("O Won Game! X LOOSER!")
+        return x      
+    if a == i:
+        x = 1
+        if a == int(a):
+            print("X Won Game! O LOOSER!")
+        else:
+            print("O Won Game! X LOOSER!")
+        return x  
+    if g == c:
+        x = 1
+        if g == int(g):
+            print("X Won Game! O LOOSER!")
+        else:
+            print("O Won Game! X LOOSER!")
+        return x  
+        
 main()
 while ready(0) != 1:            
 
