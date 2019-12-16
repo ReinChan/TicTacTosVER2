@@ -154,7 +154,7 @@ while ready(0) != 1:
             turn = "x"
         else:
             d = int(a)
-            a += 1
+            d += 1
             turn = "o"        
     
     if npush == "e":
