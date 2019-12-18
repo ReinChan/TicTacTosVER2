@@ -86,7 +86,7 @@ while ready(0) != 1:
 
     npush = input(turn + " Turn : ")
 
-    if npush == "a":
+    if npush == "11":
         if a == int(a) and turn == "x":
             a += 1
             turn = "o"
@@ -104,7 +104,7 @@ while ready(0) != 1:
             a += 1
             turn = "o"
 
-    if npush == "b":
+    if npush == "12":
         if b == int() and turn == "x":
             b += 1
             turn = "o"
@@ -121,7 +121,7 @@ while ready(0) != 1:
             b = int(b)
             b += 1
             turn = "o"        
-    if npush == "c":
+    if npush == "13":
         if c == int(c) and turn == "x":
             c += 1
             turn = "o"
@@ -139,7 +139,7 @@ while ready(0) != 1:
             c += 1
             turn = "o"
 
-    if npush == "d":
+    if npush == "21":
         if d == int(d) and turn == "x":
             d += 1
             turn = "o"
@@ -157,10 +157,10 @@ while ready(0) != 1:
             d += 1
             turn = "o"        
     
-    if npush == "e":
+    if npush == "22":
         print("Created by = SumCode")
       
-    if npush == "f":
+    if npush == "23":
         if f == int(f) and turn == "x":
             f += 1
             turn = "o"
@@ -178,7 +178,7 @@ while ready(0) != 1:
             f += 1
             turn = "o"
     
-    if npush == "g":
+    if npush == "31":
         if g == int(g) and turn == "x":
             g += 1
             turn = "o"
@@ -196,7 +196,7 @@ while ready(0) != 1:
             g += 1
             turn = "o"
     
-    if npush == "h":
+    if npush == "32":
         if h == int(h) and turn == "x":
             h += 1
             turn = "o"
@@ -214,7 +214,7 @@ while ready(0) != 1:
             h += 1
             turn = "o"
     
-    if npush == "i":
+    if npush == "33":
         if i == int(i) and turn == "x":
             i += 1
             turn = "o"
